@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-cont {
+    background: #f2f2f2;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-header {
+    width: 100%;
+    height: auto;
+    text-align: center;  
+}
+
+.desc-header img {
+    width: 90%;
+}
+
+.desc-header p {
+    font-size: 2em;
+    color: #336666;
+}
+
+.cont-header {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cont-header h1 {
+    color: #46a186;
+}
+
+.cont-header form {
+    width: 350px;
+    height: auto;
+    border: 1px solid #46a186;
+    padding: 1em;
+    margin: 2em;
+    border-radius: 1em;
+}
+
+.cont-header form .label {
+    display: block;
+    padding: 10px;
+}
+
+.cont-header input {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#loginUsuario, #loginProfesor {
+    display: block;
+    width: 100%;
+    padding: .7em;
+    border: none;
+    border-radius: 8px;
+    background: #46a186;
+    color: #fff;
+    cursor: pointer;
+}
+
+.app-sidebar__user-avatar {
+    width: 48px;
+    padding: 6px;
+    background: rgb(44, 138, 130);
+}
+
+.app .app-nav, .app .app-header {
+    background: #155c5c !important;
+}
+.app .app-sidebar{
+    background: #162c2c;
+}
+
+.app-sidebar__toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5c9999;
+}
+
+.app-sidebar__toggle::before {
+    display: none;
+}
+.verticalText {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    }
+.selectboletin {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    border: none;
+    font-size: 10px;
+    
+}
+.text-center-boletin {
+    margin: 0 auto !important;
+    table-layout: fixed;
+    text-align: center !important;
+    font-size: 10px !important;
+    border: black;
+  }
+.text-center-boletin th,
+.text-center-boletin td {
+    border: 1px solid #dee2e6 !important;
+    border-collapse: collapse !important;
+
+}
+.piedeboletin {
+    font-size: 10px;
+    text-align: center !important;
+}
+.boletin-cabecera {
+    display: flex;
+    justify-content: center !important;
+    align-items:center;
+    
+}
